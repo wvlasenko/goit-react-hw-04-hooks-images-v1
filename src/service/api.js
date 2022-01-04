@@ -8,7 +8,7 @@ axios.defaults.params = {
   key: API_KEY,
   image_type: 'photo',
   orientation: 'horizontal',
-  per_page: 12,
+  per_page: 12 ,
 };
 const getImage = async (keyword = '', page) => {
   try {
